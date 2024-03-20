@@ -115,6 +115,7 @@ const GithubButton = styled.button`
 
 const Span = styled.span`
     padding: 0 4px;
+    padding-left: 10px;
     font-weight: bold;
     font-size: 18px;
 `
@@ -160,7 +161,7 @@ const Navbar = () => {
             <NavContainer>
                 <NavLogo to='/'>
                     <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-                        <DiCssdeck size="3rem" /> <Span>Jon Code</Span>
+                        {/*<DiCssdeck size="3rem" />*/} <Span>Jon Code</Span>
                     </a>
                 </NavLogo>
                 <MobileIcon>
