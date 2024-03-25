@@ -183,6 +183,7 @@ const ResumeButton = styled.button`
     padding: 16px 0;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
+    border: none;
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
@@ -216,7 +217,7 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Olá, Eu sou <br /> {Bio.name}</Title>
+                        <Title>Olá, me chamo <br /> {Bio.name}</Title>
                         <TextLoop>
                             Sou um
                             <Span>

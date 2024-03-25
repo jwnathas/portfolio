@@ -1,9 +1,9 @@
 export const Bio = {
     name: "Jônathas Silva",
     roles: [
-        "Front-end Developer",
+        "Estudante de front-end",
         "UI Designer",
-        "Programmer",
+        "Programação",
     ],
     description:
         "Sejam bem-vindos ao meu portfólio, sou um eterno estudante motivado e versátil, sempre ansioso para enfrentar novos desafios.",
@@ -92,7 +92,7 @@ export const skills = [
             {
                 name: "Git",
                 image:
-                    "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+                    "https://avatars.githubusercontent.com/u/18133?s=280&v=4",
             },
             {
                 name: "GitHub",
@@ -107,7 +107,7 @@ export const skills = [
             {
                 name: "Figma",
                 image:
-                    "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+                    "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
             },
         ],
     },
@@ -179,7 +179,7 @@ export const projects = [
         description:
             "Projeto realizado no processo seletivo para ingressar na Empresa Júnior do IFPB (Loopis), consiste em uma lista de afazeres que tem as tarefas organizadas em ordem alfabetica, apagadas, editadas e além disso, há a funcionalidade de pesquisar por tarefa.",
         image:
-            "img/to-do-loopis.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/to-do-loopis.png?raw=true",
         tags: [
             "CSS",
             "HTML",
@@ -195,7 +195,7 @@ export const projects = [
         description:
             "Projeto de uma página de divulgação do filme Mario Bros realizado para praticar os conhecimentos na biblioteca javascript React.",
         image:
-            "img/mario-bros.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/mario-bros.png?raw=true",
         tags: [
             "CSS",
             "HTML",
@@ -212,7 +212,7 @@ export const projects = [
         description:
             "PrimeFlix é um projeto que fiz acompanhado com o Sujeito Programador para treinar as tecnologias JavaScript, Html e Css e principalmente a biblioteca React. O projeto consiste em um software que consome uma api de filmes e mostra os lançamentos no cinema, além disso, tem funções como salvar filme na lista de 'Meus Filmes', ver trailer, avaliação e sinopse. ",
         image:
-            "img/prime-flix.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/prime-flix.png?raw=true",
         tags: [
             "CSS",
             "HTML",
@@ -229,7 +229,7 @@ export const projects = [
         description:
             "Instagram clone é um projeto que fiz acompanhado com o Sujeito Programador para praticar as tecnologias da base web - JavaScript, Html e Css - e revisar conceitos de estilização CSS.",
         image:
-            "img/instagram-clone.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/instagram-clone.png?raw=true",
         tags: [
             "CSS",
             "HTML",
@@ -245,7 +245,7 @@ export const projects = [
         description:
             "Dev Converter é um conversor de Euro e Dólar para Real, é um projeto simples que usei para praticar conceitos JavaScript, como manipulação DOM",
         image:
-            "img/conversor-moedas.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/conversor-moedas.png?raw=true",
         tags: [
             "CSS",
             "HTML",
@@ -261,7 +261,7 @@ export const projects = [
         description:
             "Projeto de um QUIZ sobre sistema de versionamento de código com o intuito de ajudar meus colegas de classe para entender sobre a tecnologia.",
         image:
-            "img/quiz-git.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/quiz-git.png?raw=true",
         tags: [
             "CSS",
             "HTML",
@@ -277,7 +277,7 @@ export const projects = [
         description:
             "Projeto realizado na disciplina Linguagens de Script como avaliação, foi nesta disciplina que aprendi a criar scripts básicos e adicionar dinamica à páginas web.",
         image:
-            "img/calculadora.png",
+            "https://github.com/jwnathas/imagens-projetos/blob/main/calculadora.png?raw=true",
         tags: [
             "CSS",
             "HTML",
