@@ -3,13 +3,11 @@ export const Bio = {
     roles: [
         "Estudante de front-end",
         "UI Designer",
-        "Programação",
     ],
     description:
         "Sejam bem-vindos ao meu portfólio, sou um eterno estudante motivado e versátil, sempre ansioso para enfrentar novos desafios.",
     github: "https://github.com/jwnathas",
-    resume:
-        "https://drive.google.com/file/d/1N7MsMHBwsgMoWGBxy__8Uy6pTIxLUr5S/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1N7MsMHBwsgMoWGBxy__8Uy6pTIxLUr5S/view",
     linkedin: "https://www.linkedin.com/in/j%C3%B4nathas-silva-15b9b1206/",
 };
 
@@ -58,31 +56,6 @@ export const skills = [
             {
                 name: "Firebase",
                 image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-            },
-        ],
-    },
-    {
-        title: "Android",
-        skills: [
-            {
-                name: "Java",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-            },
-            {
-                name: "Kotlin",
-                image:
-                    "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-            },
-            {
-                name: "XML",
-                image:
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-            },
-            {
-                name: "Android Studio",
-                image:
-                    "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
             },
         ],
     },
@@ -203,7 +176,7 @@ export const projects = [
             "React"
         ],
         github: "https://github.com/jwnathas/mariobros-movie",
-        webapp: "mariobros-movie.vercel.app",
+        webapp: "https://mariobros-movie.vercel.app",
     },
     {
         id: 2,
@@ -220,7 +193,7 @@ export const projects = [
             "React"
         ],
         github: "https://github.com/jwnathas/primeflix",
-        webapp: "primeflix-woad.vercel.app",
+        webapp: "https://primeflix-woad.vercel.app",
     },
     {
         id: 3,
@@ -286,12 +259,4 @@ export const projects = [
         github: "https://github.com/jwnathas/calculadora-online",
         webapp: "https://github.com/jwnathas/calculadora-online",
     },
-];
-
-export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
 ];

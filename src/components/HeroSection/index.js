@@ -172,12 +172,9 @@ const SubTitle = styled.div`
     }
 `;
 
-const ResumeButton = styled.button`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+const ResumeButton = styled.a`
     text-decoration: none;
-    width: 95%;
+    width: 80%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
@@ -187,7 +184,7 @@ const ResumeButton = styled.button`
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out;
     background: hsla(271, 100%, 50%, 1);
     background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
@@ -200,7 +197,6 @@ const ResumeButton = styled.button`
     box-shadow:  20px 20px 60px #1F2634;
     filter: brightness(1);
     }    
-    
     
     @media (max-width: 640px) {
         padding: 12px 0;
@@ -231,7 +227,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Acesse meu CV</ResumeButton>
+                        <ResumeButton href="https://drive.google.com/file/d/1N7MsMHBwsgMoWGBxy__8Uy6pTIxLUr5S/view?usp=sharing" target="_blank">Acesse meu CV</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">

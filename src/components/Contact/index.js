@@ -121,6 +121,10 @@ const ContactButton = styled.input`
   font-weight: 600;
 `
 
+const Desc2 = styled.div`
+    color: white;
+`
+
 
 
 const Contact = () => {
@@ -149,11 +153,12 @@ const Contact = () => {
                 <Desc>Entre em contato para qualquer dúvida ou oportunidade !</Desc>
                 <ContactForm ref={form} onSubmit={handleSubmit}>
                     <ContactTitle>Me mande um email 🚀</ContactTitle>
-                    <ContactInput placeholder="Seu Email" name="from_email" />
+                    <Desc2>Email: jonathasx57@gmail.com</Desc2>
+                   {/* <ContactInput placeholder="Seu Email" name="from_email" />
                     <ContactInput placeholder="Seu nome" name="from_name" />
                     <ContactInput placeholder="Assunto" name="subject" />
                     <ContactInputMessage placeholder="Mensagem" rows="4" name="message" />
-                    <ContactButton type="ubmit" value="Enviar" />
+    <ContactButton type="ubmit" value="Enviar" />*/}
                 </ContactForm>
                 <Snackbar
                     open={open}

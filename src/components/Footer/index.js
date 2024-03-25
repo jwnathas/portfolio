@@ -1,8 +1,6 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import Githubicon from '@mui/icons-material/GitHub';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -98,7 +96,7 @@ function Footer() {
                 </Nav>
                 <SocialMediaIcons>
                     <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.github} target="display"><InstagramIcon /></SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.github} target="display"><Githubicon /></SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>
                     &copy; 2024 Jônathas Silva. Todos os direitos reservados.
